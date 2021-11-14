@@ -115,16 +115,6 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  //if (numero %3 === 0 && numero %5 === 0){ 
-  //    return "fizzbuzz";
-  //} else if (numero %5 == 0){
-  //    return "buzz";
-  //} else if (numero %3 == 0) {
-  //    return "fizz";
-  //} else {
-  //  return numero;
-  //}
-
   if (numero %3 === 0 && numero %5 === 0) return "fizzbuzz";
   if (numero %5 == 0) return "buzz";
   if (numero %3 == 0) return "fizz";
@@ -154,9 +144,9 @@ function esPrimo(numero) {
   if (numero === 0 || numero === 1) return false;
   for (var i = 2; i < numero; i++){
     if (numero % i === 0) return false;
-  }
-  return true;
+  } return true;
 }
+
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
@@ -170,23 +160,37 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  for (var i = 0; i < 60; i++){
-    let resultados = [(i * 6)];
-    return resultados;
+  
+  var resultados = [];
+  for (var i = 0; i <= 10; i++){
+    resultados.push(i * 6);
   }
+  return resultados;
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+//if (!Number.isInteger(numero)){
+  if (numero > 99 && numero < 1000){
+    return true;
+  }
+  return false;
 }
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var contador = 1;
+  do {
+    numero = numero + 5;
+    contador = contador + 1;
+  } while (contador < 9){
+    return numero;
+  }
 }
+
 
 
 // No modificar nada debajo de esta línea
