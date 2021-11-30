@@ -1,0 +1,18 @@
+
+# Homework: Introducción a Javascript
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+* Variable: Valor que asigna a un espacio en el disco rígido. Puede ser un dato así como un bloque de código.
+* String: Es un tipo de dato conformado por texto, se escribe siempre entre comillas (" ").
+* Funcion: Es un bloque de codigo que, como su nombre lo indica, ejecuta una funcion. Podemos asignarle diferentes valores, argumentos para que ejecute la misma funcion sin necesidad de escribir todo el codigo nuevamente. Return sirve para finalizar la función.
+* If: Es un bloque de codigo en que que pódemos declarar una condicion para que se ejecute un codigo y a su vez podemos encadenar otras condiciones para que ocurra otra cosa si no sucede lo primero.
+* Valores booleanos: Pueden ser unicamente true o false.
