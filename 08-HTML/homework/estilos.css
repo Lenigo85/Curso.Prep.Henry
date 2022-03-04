@@ -1,0 +1,25 @@
+
+    * {
+        width: fit-content;
+        margin: 0 auto;
+    }    
+
+    h1 {
+        color: maroon;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    #thirdDiv {
+        height: 600px;
+        width: 500px;
+        background-color: bisque;
+        padding: 50px;
+        border: 10px dashed burlywood;
+    }
+
+    #spanId {
+        font-size: 18px;
+    }
